@@ -1,0 +1,54 @@
+Reference & Summary Report
+
+Jetpack Compose Documentation – [https://developer.android.com/jetpack/compose]
+Android Developers Guide – [https://developer.android.com/guide]
+Android Material 3 Components – [https://developer.android.com/jetpack/compose/designsystems/material3]
+Class lectures and my own practice notes
+Canva (used to design the custom app logo)
+
+1. Project Overview
+I create an interactive quiz game that challenges the player to answer a series of multiple-choice questions. If all questions are answered correctly, the player becomes a “Millionaire.”
+This app is built entirely using Jetpack Compose** and Kotlin with multiple activities for each question. Each screen follows a consistent theme and color scheme for a smooth and engaging user experience.
+
+2. App Features
+
+Main Features
+
+Splash Screen:
+ The app begins with a splash screen that displays the app logo, title, and a “Start Quiz” button.
+ The logo is shown inside a Card with rounded corners and elevation for a modern look.
+
+Quiz Questions:
+  The quiz contains 10 multiple-choice question each on its own activity (e.g`Question1Screen`, `Question2Screen`, etc.).
+  Each question includes:
+
+  A question prompt
+  Four possible answers (A–D)
+  Toast messages for correct or incorrect answers
+  Automatic navigation to the next question or to the lose screen
+
+Win & Lose Screens:
+
+Win Screen:Displays “Congratulations! You are a Millionaire!” with a green background and “Play Again” button.
+Lose Screen: Displays “Sorry, you lost! Try Again. with a red background and “Try Again” button to restart.
+
+Toast Confirmation:
+Each answer selection triggers a Toast message confirming whether the answer is correct or wrong.
+
+5. Output Screens with Live Demo
+
+Screenshot 1: Main activity (splash) Screen with logo and Start Quiz button.
+Screenshot 2:Question 1 to 10 Questions– Multiple-choice layout with options.
+Screenshot 3:Toast message confirming the answer.
+Screenshot 4:Lose Screen – Sorry, you lost
+Screenshot 5:Win Screen – Congratulations You are a Millionaire!
+
+6. Summary
+
+The project successfully fulfills all requirements:
+Splash Screen
+10 Questions
+Win & Lose Screens
+Toast Confirmations
+Consistent Styling
+Proper Comments throughout the code
